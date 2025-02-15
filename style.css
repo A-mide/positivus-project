@@ -128,7 +128,6 @@ li a {
   align-items: start;
   justify-content: start;
   row-gap: 2.3rem;
-  background-color: aqua;
 }
 .text-box {
   width: 70%;
@@ -196,7 +195,7 @@ button a {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 .box-soc {
@@ -220,7 +219,7 @@ button a {
   align-items: center;
   justify-content: start;
   column-gap: 5rem;
-  margin-top: 1rem;
+  margin-top: 4rem;
   /* background-color: #b9ff66; */
 }
 .services-box {
@@ -246,6 +245,41 @@ button a {
 }
 /* end of services */
 
+/* seo */
+.seo-card-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: start;
+  column-gap: 1.5rem;
+  margin-top: 4rem;
+}
+
+.right {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.first-card-1 {
+  width: fit-content;
+  height: auto;
+}
+.seo-img {
+  max-width: 100%;
+  height: auto;
+}
+.left {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+/* end of seo */
 /* media query */
 
 @media screen and (max-width: 768px) {
@@ -283,6 +317,9 @@ button a {
     flex-wrap: wrap;
   }
   .services-container {
+    flex-direction: column;
+  }
+  .seo-card-container {
     flex-direction: column;
   }
 }
