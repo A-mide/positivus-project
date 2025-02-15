@@ -3,7 +3,123 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
-  <body></body>
+  <body>
+    <main>
+      <div class="header">
+        <div class="logo-container">
+          <div class="logo">
+            <img src="images/Vector.png" alt="logo-img" class="logo-img" />
+          </div>
+
+          <div class="logo-text">
+            <h1>Positivus</h1>
+          </div>
+        </div>
+
+        <div class="nav-menu">
+          <ul class="desktop-menu">
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#" class="btn">Request a quote</a></li>
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
+          </ul>
+
+          <ul class="Mobile-menu" id="Mobile-menu">
+            <i class="fa-solid fa-x" id="close-icon"></i>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#" class="btn">Request a quote</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="hero">
+        <div class="nav-section">
+          <div class="text-box">
+            <h1 class="nav-text">
+              Navigating the digital landscape for success
+            </h1>
+          </div>
+
+          <div class="pre-text-box">
+            <p class="pre-text">
+              Our digital marketing agency helps businesses grow and succeed
+              online through a range of services including SEO, PPC, social
+              media marketing, and content creation.
+            </p>
+          </div>
+
+          <div class="button-box">
+            <button>
+              <a href="#" class="btn-text">Book a consultation</a>
+            </button>
+          </div>
+        </div>
+
+        <div class="nav-pics">
+          <div class="">
+            <img src="images/Illustration.svg" alt="" class="illu-img" />
+          </div>
+        </div>
+      </div>
+
+      <div class="socials-container">
+        <div class="amazon-box box-soc">
+          <img src="images/amazon.svg" alt="amazon-logo" class="social-img" />
+        </div>
+
+        <div class="dribble-box box-soc">
+          <img
+            src="images/Dribbble.svg"
+            alt="dribble-logo"
+            class="social-img"
+          />
+        </div>
+        <div class="hubspot box-soc">
+          <img src="images/Hubspot.svg" alt="hubspot-logo" class="social-img" />
+        </div>
+        <div class="notion-box box-soc">
+          <img src="images/Notion.svg" alt="notion-logo" class="social-img" />
+        </div>
+        <div class="netflix-box box-soc">
+          <img src="images/Netflix.svg" alt="netflix-logo" class="social-img" />
+        </div>
+
+        <div class="zoom-box box-soc">
+          <img src="images/Zoom.svg" alt="zoom-logo" class="social-img" />
+        </div>
+      </div>
+
+      <!-- services -->
+      <div class="services-container">
+        <div class="services-box">
+          <h2>Services</h2>
+        </div>
+
+        <div class="Services-text-box">
+          <p>
+            At our digital marketing agency, we offer a range of services to
+            help businesses grow and succeed online. These services include:
+          </p>
+        </div>
+      </div>
+      <!-- end of services -->
+    </main>
+
+    <script src="scripts/main.js"></script>
+  </body>
 </html>
