@@ -318,6 +318,18 @@ button a {
   }
   .services-container {
     flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+  }
+
+  .Services-text-box {
+    width: 90%;
+    height: auto;
+    text-align: center;
+  }
+  .Services-text-box p {
+    font-size: 0.68rem;
+    font-weight: 600;
   }
   .seo-card-container {
     flex-direction: column;
