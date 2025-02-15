@@ -116,7 +116,6 @@ li a {
   flex-direction: row;
   justify-content: start;
   align-items: start;
-  border: 1px solid black;
   margin-top: 1rem;
 }
 
@@ -302,6 +301,16 @@ button a {
     display: flex;
     flex-direction: column;
   }
+
+  .text-box {
+    width: 90%;
+    height: auto;
+  }
+
+  .nav-text {
+    font-size: 1.9rem;
+  }
+
   .button-box {
     width: 100%;
     height: auto;
